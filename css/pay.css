@@ -1,0 +1,153 @@
+/*
+* @Author: HP
+* @Date:   2018-11-09 11:55:44
+* @Last Modified by:   HP
+* @Last Modified time: 2018-11-12 14:36:37
+*/
+body{
+	overflow-y: hidden;
+}
+.dingbu{
+	width: 7.5rem;
+	height: 1.37rem;
+	background: #5151ff;
+	display: flex;
+}
+.dingbu .wenzi{
+	width: 2.96rem;
+	height: 0.7rem;
+	margin-left: 1.6rem;
+	padding-top: 0.53rem;
+}
+.dingbu h1{
+	font-size: 0.26rem;
+	color: white;
+	text-align: center;
+
+}
+.dingbu p{
+	font-size: 0.26rem;
+	color: #a7a7ff;
+	text-align: center;
+}
+.dingbu i{
+	color: white;
+	font-size: 0.43rem;
+}
+.zhongjia{
+	width: 7.5rem;
+	height: 2.75rem;
+	/* background: green; */
+	padding-left: 0.84rem;
+	padding-top: 0.57rem;
+}
+.zhongjia .xia{
+	color: white;
+	font-size: 0.26rem;
+	color: black;
+}
+.dibu{
+	width: 7.02rem;
+	height: 9.23rem;
+	background: blue;
+	background-image: url('../img/Thirdpartypayment_73.png');
+	background-size: 7.02rem 9.23rem;
+	margin-left: 0.24rem;
+}
+.dibu .zhifufangshi{
+	width: 7.02rem;
+	height: 4.88rem;
+	
+	padding-top: 1.36rem;
+	padding-left: 0.17rem;
+	display: flex;
+}
+.dibu .weixin{
+	width: 2.87rem;
+	height: 1.44rem;
+	background: #157b0e;
+	display: flex;
+	padding-left: 0.2rem;
+	padding-top: 0.34rem;
+	
+}
+.dibu .weixin i{
+	font-size: 0.9rem;
+	text-align: center;
+}
+.dibu .weixin .wxwz {
+	width: 1.38rem;
+	height: 1.01rem;
+
+
+}
+.dibu .weixin .wxwz p{
+	color: white;
+	font-size: 0.16rem;
+	text-align: center;
+}
+
+.dibu .zhifubao{
+	width: 2.87rem;
+	height: 1.44rem;
+	background: #00a3f0;
+	display: flex;
+	padding-right: 0.2rem;
+	padding-top: 0.34rem;
+	margin-left: 0.93rem;
+}
+.dibu .zhifubao i{
+	font-size: 0.9rem;
+	text-align: center;
+}
+.dibu .zhifubao .wxwz p{
+	color: white;
+	font-size: 0.16rem;
+	text-align: center;
+	margin-left: 0.1rem;
+}
+.dibu .qita{
+	width: 7.02rem;
+	height: 4.35rem;
+	/* background: blue; */
+}
+.dibu .qita .yinhang{
+	width: 7.02rem;
+	height: 0.83rem;
+	/* background: red; */
+	display: flex;
+	border: 0.01rem dashed white;
+	padding-left: 0.38rem;
+}
+.dibu .qita .yinhang i{
+	font-size: 0.64rem;
+	color:#00a3e0;
+}
+.dibu .qita .yinhang .yhzi{
+	width: 5.51rem;
+	height: 0.88rem;
+	padding-left: 0.62rem;
+
+}
+.dibu .qita .yinhang h6{
+	font-size: 0.24rem;
+	color: white;
+
+
+}
+.dibu .qita .yinhang p{
+	font-size: 0.24rem;
+	color: white;
+}
+.dibu .gengduo{
+	width: 4.1rem;
+	height: 0.94rem;
+	font-size: 0.3rem;
+	background: #00a3e0;
+	color: white;
+	border-radius: 0.47rem;
+	text-align: center;
+	line-height: 0.94rem;
+	margin-left: 1.47rem;
+	margin-top: 0.02rem;
+}

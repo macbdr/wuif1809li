@@ -1,0 +1,91 @@
+/*
+* @Author: HP
+* @Date:   2018-11-09 11:55:44
+* @Last Modified by:   HP
+* @Last Modified time: 2018-11-12 09:20:16
+*/
+.zhengti{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/zhengti.png');
+	background-repeat: no-repeat;
+	background-size: 7.5rem 13.34rem;
+    z-index:-10;
+    padding-top: 0.6rem;
+    
+	
+
+}
+
+.zhengti .denglu{
+	width: 1.73rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	background: #7272ff;
+	font-size: 0.30rem;
+	text-align: center;
+	line-height: 0.76rem;
+	margin-left: 5.19rem;
+
+}
+.zhuce{
+	width: 7.02rem;
+	height: 5.87rem;
+	background: white;
+	margin-left: 0.24rem;
+	margin-top: 3rem;
+	border-radius: 0.1rem;
+	padding-top: 0.7rem;
+}
+.zhengti .dw{
+	width: 2.04rem;
+	height: 0.51rem;
+	text-align: center;
+	font-size: 0.30rem;
+	color: #5151ff;
+	margin-left: 2.5rem;
+}
+.zhengti .zhuce .dw2{
+	width: 2.04rem;
+	height: 0.51rem;
+	text-align: center;
+	font-size: 0.30rem;
+	color: #a7a7fc;
+	margin-left: 2.5rem;
+	margin-bottom: 0.17rem;
+}
+.zhengti .zhuce .zhanghao{
+	width: 7.02rem;
+	height: 0.8rem;
+	/* background: blue; */
+	display: flex;
+	padding-left:0.42rem;
+	margin-top: 0.3rem;
+}
+.zhengti .zhuce .zhanghao i{
+	font-size: 0.44rem;
+	color: #7272ff;
+
+}
+.zhengti .zhuce .zhanghao input{
+	width: 3.5rem;
+	height: 0.5rem;
+	border: none;
+	border-bottom: 0.01rem solid #c483e3; 
+}
+.zhengti .zhuce .zhanghao .kuohao{
+	font-size: 0.26rem;
+	color: #7272ff;
+	margin-top: 0.2rem;
+	margin-left: 0.03rem;
+}
+.zhengti .zhuce .zhucidi{
+	width: 2.34rem;
+	height: 0.72rem;
+	border-radius: 0.36rem;
+	background: #959595;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.72rem;
+	margin-left: 2.38rem;
+}

@@ -1,0 +1,248 @@
+ /*
+* @Author: HP
+* @Date:   2018-11-07 11:08:05
+* @Last Modified by:   HP
+* @Last Modified time: 2018-11-12 21:19:52
+*/
+header{
+	width: 7.5rem;
+	height: 0.9rem;
+	background: #5151ff;
+	padding-top: 0.24rem;
+}
+header input{
+	width: 4.26rem;
+	height: 0.47rem;
+	display: block;
+	background: white;
+	margin-left: 1.60rem;
+	border-radius: 0.235rem;
+	border: none;
+	background-image: url('../img/search.png');
+	background-size: 0.3rem 0.3rem;
+	background-repeat: no-repeat;
+	background-position: 0.24rem 0.08rem;
+}
+::-webkit-input-placeholder{
+	color: #9c9c9c;
+	font-size: 0.2rem;
+	text-align: center;
+}
+nav{
+	width: 100%;
+	height: 5.25rem;
+	padding: 0 0.24rem;
+}
+nav ul{
+	width: 100%;
+	height: 100%; 
+}
+.banner{
+	width: 7.06rem;
+	height: 3.6rem;
+	position: relative;
+	
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+
+}
+nav .banner .ld{
+	width: 1.22rem;
+	height: 0.21rem;
+	bottom: 0.17rem;
+	left: 2.95rem;
+	position: absolute;
+
+}
+nav .banner .ld .yuan{
+	width: 0.21rem;
+	height: 0.21rem;
+	border-radius: 50%;
+	background: white;
+	float: left;
+	margin-right: 0.09rem;
+}
+nav .banner .ld .yuan:nth-child(1){
+	background: black;
+}
+nav ul li{
+	width: 1.2rem;
+	height: 1.6rem;
+	float: left;
+	margin-right: 0.58rem;
+	margin-bottom: 0.4rem;
+}
+nav ul li:nth-child(4){
+	margin-right: 0;
+}
+nav ul li:nth-child(8){
+	margin-right: 0;
+}
+nav ul li:nth-child(1){
+	margin-left: 0.29rem;
+}
+nav ul li:nth-child(5){
+	margin-left: 0.29rem;
+}
+nav ul li img{
+	width: 1.17rem;
+	height: 1.17rem;
+	display: block;
+}
+nav ul li h6{
+	font-size: 0.2rem;
+	color: #717171;
+	text-align: center;
+}
+.ggt {
+	width: 100%;
+	height: 2.25rem;
+}
+.ggt img{
+	width: 7.10rem;
+	height: 2.25rem;
+	padding-left: 0.28rem;
+}
+.wenzi{
+	width: 2.92rem;
+	height: 0.99rem;
+	margin-top: 2.74rem;
+	margin-left: 2.30rem;
+	margin-bottom: 0.2rem;
+}
+.wenzi img{
+	width: 100%;
+	height: 100%;
+}
+.paixu {
+	width: 4rem;
+	height: 0.36rem;
+	margin-left: 0.24rem;
+}
+.paixu .zonghe{
+	width: 1.22rem;
+	height: 0.36rem;
+	border-radius: 0.18rem;
+	background: #5151ff;
+	float: left;
+	font-size: 0.2rem;
+	text-align: center;
+	color: white;
+}
+.paixu .juli{
+	width: 0.74rem;
+	height: 0.36rem;
+	border-radius: 0.18rem;
+	float: left;
+	margin-right: 0.64rem;
+	margin-left: 0.64rem;
+	font-size: 0.2rem;
+	text-align: center;
+}
+.paixu .xiaoliang{
+	width: 0.74rem;
+	height: 0.36rem;
+	border-radius: 0.18rem;
+	float: left;
+	font-size: 0.2rem;
+	text-align: center;
+}
+.nei{
+	width: 7.05rem;
+	margin-top: 0.2rem;
+	margin-left: 0.24rem;
+	
+}
+.nei li{
+	width: 100%;
+	height: 2.12rem;
+	margin-bottom: 0.2rem;
+	border-radius: 0.2rem;
+	box-shadow:0 0.01rem 0.05rem 0 #cccbcb;
+	padding-top: 0.05rem;
+}
+.nei li .pic{
+	width: 2.04rem;
+	height: 100%;
+	display: block;
+	padding-top: 0.15rem;
+	float: left;
+}
+.nei li .pic img{
+	width: 1.56rem;
+	height: 1.82rem;
+	margin: auto;
+	display: block;
+}
+.nei .neirong .n1{
+	width: 5.02rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+	margin-left: 2.02rem;
+}
+.nei .neirong .n1 .wz1{
+	font-size: 0.28rem;
+
+}
+.nei .neirong .n2{
+	font-size: 0.22rem;
+	color: #c1c1c1;
+	margin-bottom: 0.2rem;
+	margin-top: 0.25rem;
+}
+.nei .neirong .n3 .tb{
+	width: 1rem;
+	height: 0.3rem;
+	float: left;
+	margin-right: 0.3rem;
+	margin-top: 0.1rem;
+}
+.nei .neirong .n3 img{
+	display: block;
+	width: 0.24rem;
+	height: 0.24rem;
+	float: left;
+	margin: auto;
+
+}
+.nei .neirong .n3 p{
+	font-size: 0.18rem;
+	float: left;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+ main{
+ 	width: 100%;
+	margin-bottom: 0.84rem;
+} 
+.dibu{
+	width: 100%;
+	height: 0.84rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #5151ff;
+}
+.dibu a .shouye{
+	width: 25%;
+	height: 0.84rem;
+	float: left;
+	padding-top: 0.11rem;
+
+}
+.dibu a .shouye i{
+	display: block;
+	font-size: 0.43rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.dibu a .shouye h6{
+	font-size: 0.18rem;
+	text-align: center;
+	color: white;
+
+}
+
+

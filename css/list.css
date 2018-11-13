@@ -1,0 +1,255 @@
+/*
+* @Author: HP
+* @Date:   2018-11-07 11:08:05
+* @Last Modified by:   HP
+* @Last Modified time: 2018-11-12 14:11:05
+*/
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	position: absolute;
+}
+header .dingbu{
+	width: 7.5rem;
+	height: 5.64rem;
+	background-image: url('../img/beijing.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	padding-top: 0.62rem;
+	padding-left:0.24rem; 
+	padding-right: 0.24rem;
+}
+header .dingbu .fanhui{
+	width: 100%;
+	height: 0.85rem;
+	display: flex;
+	justify-content: space-between;
+	/* background: pink; */
+
+}
+header .dingbu .fanhui .zi{
+	color: white;
+	font-size: 0.34rem;
+
+}
+header .dingbu .fanhui i{
+	font-size: 0.43rem;
+	color: white;
+	
+}
+header .dingbu .jianjie{
+	width: 100%;
+	/* background: blue; */
+	height: 4.10rem;
+	display: flex;
+	flex-direction: row;
+}
+header .dingbu .jianjie .pic{
+	width: 2.55rem;
+	height:100%;
+	/* background: red; */
+	padding-top: 0.73rem;
+	padding-left: 0.36rem;
+
+}
+header .dingbu .jianjie .pic img{
+	width: 1.9rem;
+	height: 2.5rem;
+}
+header .dingbu .jianjie .text{
+	height: 100%;
+	width: 4.78rem;
+	/* background: white; */
+	padding-top: 0.73rem;
+
+
+}
+header .dingbu .jianjie .xy1{
+	font-size: 0.34rem;
+	color: white;
+}
+header .dingbu .jianjie .xy2{
+	font-size: 0.28rem;
+	color: white;
+}
+header .dingbu .jianjie .xy3{
+	/* background: yellow; */
+	display: block;
+	font-size: 0.4rem;
+	color:yellow;
+}
+header .dingbu .jianjie .xy4{
+	font-size: 0.22rem;
+	color: white;
+}
+.lanmu {
+	width: 7.0rem;
+	height: 1.33rem;
+	/* background: blue; */
+	padding-top: 0.7rem;
+	padding-left: 0.78rem;
+	/* padding-right: 0.42rem; */
+}
+.lanmu ul{
+	display: flex;
+	flex-direction: row;
+	width: 6.04rem;
+	height: 0.33rem;
+	justify-content: space-between;
+}
+.lanmu ul li{
+	width: 0.66rem;
+	height: 0.33rem;
+	color: black;
+	font-size: 0.26rem;
+	border-radius: 0.16rem;
+	text-align: center;
+}
+.lanmu ul li:nth-child(2){
+	width: 1.55rem;
+	height: 0.33rem;
+}
+.lanmu ul li:nth-child(1){
+	background: #5151ff;
+	color: white;
+
+}
+.til{
+	width:7.5rem;
+	display: flex;
+	/* justify-content: space-between; */
+	/* background: blue; */
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+}
+.til .left{
+	width: 1.6rem;
+}
+.til .left li{
+	width: 1.44rem;
+	height: 0.8rem;
+	font-size: 0.28rem;
+	color: black;
+	margin-bottom: 0.15rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.til .left li:nth-child(1){
+	background: #5151ff;
+	color: white;
+}
+.til .right{
+	width: 5.39rem;
+	height: 5.86rem;
+	overflow-y:  scroll;
+}
+.til .right li{
+	width: 5.35rem;
+	height: 1.76rem;
+	
+	margin-bottom: 0.23rem;
+	box-shadow: 0 0.01rem 0.05rem 0 #cccbcb;
+	/* background: red; */
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 0.26rem;
+}
+.til .right li .picture{
+	width: 1.7rem;
+	height: 1.77rem;
+	/* padding-top: 0.26rem; */
+
+}
+.til .right li .picture img{
+	width: 1.42rem;
+	height: 1.42rem;
+	display: block;
+	margin: 0 auto;
+}
+.til .right li .wenzi .shangbiao{
+	font-size: 0.24rem;
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 0.15rem;
+}
+.til .right li .wenzi .shangbiao .qw2{
+	width: 1rem;
+	height: 0.22rem;
+	font-size: 0.2rem;
+}
+.til .right li .wenzi .shangbiao .qw1{
+	width: 2rem;
+	height: 0.22rem;
+	font-size: 0.24rem;
+}
+.til .right li .wenzi .jieshao{
+	font-size: 0.22rem;
+}
+.til .right li .wenzi .jiage{
+	width: 3.13rem;
+	height: 0.36rem;
+	/* background: blue; */
+	display: flex;
+	justify-content: space-between;
+}
+.til .right li .wenzi .jiage .jiaqian{
+	font-size: 0.18rem;
+	color: red;
+
+}
+.til .right li .wenzi .jiage .jiahao{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background: #5151ff;
+}
+.til .right li .wenzi .jiage .jiahao p{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color: white;
+}
+.gouwu{
+	width: 7.02rem;
+	height: 1.07rem;
+	background: white;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 0.24rem;
+	position: fixed;
+	left: 0.24rem;
+	bottom: 0;
+}
+.gouwu .che{
+	width: 5.14rem;
+	height: 100%;
+	/* background: yellow; */
+	display: flex;
+	justify-content: flex-start;
+
+}
+.gouwu .che i{
+	font-size: 0.5rem;
+	color: #333333;
+	text-align: center;
+	line-height: 1.07rem;
+}
+.gouwu .che .zi{
+	color: #000000;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.gouwu .che .zi .xia{
+	line-height: 0;
+}
+.gouwu .qisong {
+	width: 1.88rem;
+	height: 1.07rem;
+	padding-left:0.49rem; 
+	background: #bfbcbc;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 1.07rem;
+}
